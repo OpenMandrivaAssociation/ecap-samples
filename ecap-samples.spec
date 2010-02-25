@@ -1,12 +1,13 @@
 Summary:	Simple ecap samples
 Name:		ecap-samples
 Version:	0.0.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	BSD
 Group:		Networking/Other
 URL:		http://www.ecap.org
 Source0:	http://www.measurement-factory.com/tmp/ecap/ecap_adapter_sample-%{version}.tar.gz
 BuildRequires:	ecap-devel
+BuildRequires:	ecap
 Buildroot:	%{_tmppath}/%{rname}-%{version}-%{release}-buildroot
 
 %description
