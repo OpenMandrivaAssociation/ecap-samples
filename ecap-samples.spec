@@ -1,7 +1,7 @@
 Summary:	Simple ecap samples
 Name:		ecap-samples
-Version:	0.0.2
-Release:	%mkrel 3
+Version:	0.0.3
+Release:	%mkrel 1
 License:	BSD
 Group:		Networking/Other
 URL:		http://www.ecap.org
