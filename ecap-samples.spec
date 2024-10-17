@@ -4,7 +4,7 @@ Version:	0.0.3
 Release:	%mkrel 1
 License:	BSD
 Group:		Networking/Other
-URL:		http://www.ecap.org
+URL:		https://www.ecap.org
 Source0:	http://www.measurement-factory.com/tmp/ecap/ecap_adapter_sample-%{version}.tar.gz
 BuildRequires:	ecap-devel
 BuildRequires:	ecap
