@@ -6,6 +6,11 @@ License:	BSD
 Group:		Networking/Other
 URL:		https://www.ecap.org
 Source0:	http://www.measurement-factory.com/tmp/ecap/ecap_adapter_sample-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	ecap-devel
 BuildRequires:	ecap
 Buildroot:	%{_tmppath}/%{rname}-%{version}-%{release}-buildroot
